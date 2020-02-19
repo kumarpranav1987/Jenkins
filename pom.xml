@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.livetechstudy</groupId>
 	<artifactId>Jenkins</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>Jenkins</name>
 	<description>Jenkins</description>
 
@@ -19,7 +19,7 @@
 	</properties>
 	<scm>
 		<developerConnection>scm:git:https://github.com/kumarpranav1987/Jenkins.git</developerConnection>
-	  <tag>Jenkins-0.0.2</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<dependencies>
 		<dependency>
