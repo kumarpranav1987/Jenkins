@@ -3,8 +3,8 @@ pipeline {
 	stages {
 		stage("Release") {
             		steps {
-                		bat "mvn -B release:prepare"
-                		bat "mvn -B release:perform"
+                		bat "mvn -Dmaven.javadoc.skip=true -B release:prepare"
+                		bat "mvn -Dmaven.javadoc.skip=true -B release:perform"
 			}
         	}
 	}
