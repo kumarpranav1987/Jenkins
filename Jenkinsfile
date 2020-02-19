@@ -3,8 +3,8 @@ pipeline {
 	stages {
 		stage("Release") {
             		steps {
-                		"mvn -B release:prepare"
-                		"mvn -B release:perform"
+                		mvn -B release:prepare
+                		mvn -B release:perform
             		}
         	}
 	}
