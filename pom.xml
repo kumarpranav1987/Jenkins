@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.livetechstudy</groupId>
 	<artifactId>Jenkins</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>Jenkins</name>
 	<description>Jenkins</description>
 
