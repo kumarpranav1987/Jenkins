@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.livetechstudy</groupId>
 	<artifactId>Jenkins</artifactId>
-	<version>0.0.7-SNAPSHOT</version>
+	<version>0.0.9-SNAPSHOT</version>
 	<name>Jenkins</name>
 	<description>Jenkins</description>
 
@@ -45,13 +45,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<configuration>
-					<additionalparam>-Xdoclint:none</additionalparam>
-				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
