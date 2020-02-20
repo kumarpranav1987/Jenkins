@@ -1,1 +1,17 @@
-
+pipeline {
+	agent { label 'LocalUbuntu' }
+	stages {
+		stage("Release") {
+            		steps {
+                		sh "mvn -Dmaven.javadoc.skip=true -B release:prepare"
+                		sh "mvn -Dmaven.javadoc.skip=true -B release:perform"
+			}
+        	}
+		stage("Clean WorkSpace"){
+			steps {
+				cleanWs()
+			}	
+		}
+		
+	}
+}
