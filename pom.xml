@@ -18,7 +18,8 @@
 		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 	</properties>
 	<scm>
-		<developerConnection>scm:git:ssh://git@github.com/kumarpranav1987/Jenkins.git</developerConnection>
+		<!-- <developerConnection>scm:git:ssh://git@github.com/kumarpranav1987/Jenkins.git</developerConnection>-->
+		<developerConnection>scm:git:https://github.com/kumarpranav1987/Jenkins.git</developerConnection> 
 		<tag>HEAD</tag>
 	</scm>
 	<dependencies>
