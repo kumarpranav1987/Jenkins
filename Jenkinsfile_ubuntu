@@ -1,5 +1,10 @@
 pipeline {
 	agent { label 'LocalUbuntu' }
+	parameters {
+        booleanParam(name: "RELEASE",
+                description: "Build a release from current commit.",
+                defaultValue: false)
+        }
 	stages {
 		stage("Release") {
             		steps {
