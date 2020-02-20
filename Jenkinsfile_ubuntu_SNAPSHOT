@@ -1,10 +1,9 @@
 pipeline {
 	agent { label 'LocalUbuntu' }
 	stages {
-		stage("Release") {
+		stage("Snapshot Build") {
             		steps {
-                		sh "mvn -Dmaven.javadoc.skip=true -B release:prepare"
-                		sh "mvn -Dmaven.javadoc.skip=true -B release:perform"
+                		sh "mvn -Dmaven.javadoc.skip=true -B deploy"
 			}
         	}
 		stage("Clean WorkSpace"){
