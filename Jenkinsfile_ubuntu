@@ -2,7 +2,9 @@ pipeline {
 	agent { label 'LocalUbuntu' }
 	stages {
 		stage("Clean WorkSpace"){
-			cleanWs()
+			steps {
+				cleanWs()
+			}	
 		}
 		stage("Release") {
             		steps {
